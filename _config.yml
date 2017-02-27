@@ -1,3 +1,2 @@
 mardown: redcarpet
 exclude: ['README.md']
-theme: jekyll-theme-cayman
