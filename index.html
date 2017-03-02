@@ -15,11 +15,10 @@ layout: default
 </p>
 
 <h2>My Projects</h2>
-	<a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>
-		
+	
 	{% for project in site.data.project-sdsu %}
 	<li>
-		<a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>
+		<a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a><br>
 		{{project.content | markdonify}}
 	</li>
 	{% endfor %}

@@ -1,21 +1,26 @@
-- title: Android Development
-  folder: android-development
-  cat: project
-  content: My Android developments projects! 
-
 - title: Computer Vision
   folder: computer-vision
   cat: project
-  content: My Android developments projects! 
+  content: Processing images and videos using traditional methods and machine learning
 
 - title: Database
   folder: database
   cat: project
-  content: My Android developments projects! 
+  content: Using both JAVA and SQL to draw a picture in spatial database
+
+- title: Android Development
+  folder: android-development
+  cat: project
+  content: Developing small Apps using JAVA in Android platform
 
 - title: Big Data
   folder: big-data
   cat: project
-  content: My Android developments projects! 
+  content: Using Hadoop and AWS to analyse big data
+
+- title: Others
+  folder: others
+  cat: project
+  content: other projects
 
 

@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: Crowd Counting
+title: crowd-counting
 cat: computer-vision
 meta: intro of crowd counting
-image: amb2.png
+image: 
 ---
 
-Crowd Counting~~
+intro of Crowd Counting~~

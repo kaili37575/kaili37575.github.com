@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: Object Tracting
+title: object-tracting
 cat: computer-vision
 meta: intro of object tracting
-image: amb1.png
+image: 
 ---
 
 Object Tracting~~
