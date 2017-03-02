@@ -4,3 +4,12 @@ layout: default
 
 <h1>I'm kai li, I love jekyll~</h1>
 	
+<ol>
+	
+	{% for project in site.data.project-sdsu %}
+	<li>
+		<a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>
+		{{project.content | markdonify}}
+	</li>
+	{% endfor %}
+</ol>

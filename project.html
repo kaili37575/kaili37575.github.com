@@ -1,1 +1,13 @@
+---
+layout: project
+--- 
+
 <h1>This is my project page</h1>
+<ul>
+{% for project in site.posts limit:2%}
+	<li>
+		<a href="{{site.url}}{{project.url}}">{{project.title}}</a>
+		<p>{{project.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
