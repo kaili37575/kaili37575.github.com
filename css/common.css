@@ -4,6 +4,16 @@ html{
 
 	font: normal 100%/1.4 Georgia,serif;
 }
+.masthead{
+	padding: 1em;
+	background: #000531 url("../img/header-background.jpg") no-repeat center center;
+	background-size: cover;
+}
+.articleimg{
+	padding: 1em;
+	background: #000531 url("../img/article-background.jpg") no-repeat center center;
+	background-size: cover;
+}
 .current{
 	background-color:  #000531;
 	color: #fff;

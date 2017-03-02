@@ -2,10 +2,21 @@
 layout: default
 --- 
 
-<h1>I'm kai li, I love jekyll~</h1>
+
 	
-<ol>
-	
+<ol class="articleimg">
+<h2>My self introduction</h2>
+
+<img src="../img/me.jpg" alt="Photo of myself" width="170" height="240"> 
+<p>
+	I'm Kai Li, and I'm a graduate student from computer science department in San Diego State University(SDSU). I love coding and designing. 
+  <br>Email: likaiapply@outlook.com
+  <br>TEL: +1(619)866-9175  
+</p>
+
+<h2>My Projects</h2>
+	<a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>
+		
 	{% for project in site.data.project-sdsu %}
 	<li>
 		<a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>

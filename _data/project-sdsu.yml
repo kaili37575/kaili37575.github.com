@@ -1,17 +1,21 @@
 - title: Android Development
   folder: android-development
+  cat: project
   content: My Android developments projects! 
 
 - title: Computer Vision
   folder: computer-vision
+  cat: project
   content: My Android developments projects! 
 
 - title: Database
   folder: database
+  cat: project
   content: My Android developments projects! 
 
 - title: Big Data
   folder: big-data
+  cat: project
   content: My Android developments projects! 
 
 
