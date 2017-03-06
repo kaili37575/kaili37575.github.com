@@ -1,9 +1,16 @@
 ---
 layout: project-detail
-title: fft
+title: FFT
 cat: computer-vision
-meta: intro of fft
-image: 
+meta: Using java to achieve non-recursive FFT, Apply circle filter and butter-flow filter to remove different kinds of noise.
+image: fft1.png
 ---
 
-FFT
+## FFT
+* Apply circle low filter to remove salt noise<br>
+![alt text]({{site.baseurl}}/img/projects/fft1.png)<br>
+
+* Apple butterflow low filter to remove Sinusoidal noise<br>
+![alt text]({{site.baseurl}}/img/projects/fft2.png)<br>
+
+[Source code and details](https://github.com/kaili37575/FFT-Java)<br>

@@ -1,8 +1,8 @@
 ---
 layout: project-detail
-title: hadoop-aws
+title: Hadoop AWS
 cat: big-data
-meta: intro of hadoop-aws
+meta: intro of Hadoop-AWS
 image: 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: robot
+title: Escape the maze
 cat: others
-meta: intro of robot running in a maze
-image: 
+meta: Using JAVA to achieve an expert system to help the robot escape the maze.
+image: robot.png
 ---
 
-Crowd Counting~~
+Escape the maze!

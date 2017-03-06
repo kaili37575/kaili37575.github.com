@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: object-tracting
+title: Object Tracting
 cat: computer-vision
-meta: intro of object tracting
-image: 
+meta: Tracking objects by matching the interested points in each frame.
+image: tracking-object1.png
 ---
 
 Object Tracting~~

@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: interested-point
+title: Interested Point
 cat: computer-vision
-meta: intro of interested points
-image: 
+meta: Detect Harris Corner on two photos contain same object but with different perspective.
+image: interested-point.png
 ---
 
 interested points

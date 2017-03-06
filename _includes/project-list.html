@@ -2,11 +2,10 @@
 	<ol>
 	{% for project in site.pages %}
 	{% if project.cat == include.cat %}
-	<li>
-	<img src="{{site.baseurl}}/img/projects/{{project.image}}" alt="Photo of {{project.title}}">
-
+	
+     <li>
 			<a href="{{site.baseurl}}{{project.url}}"><h3>{{project.title | markdonify}}</h3></a>
-
+<img src="{{site.baseurl}}/img/projects/{{project.image}}" alt="Photo of {{project.title}}" width="350" height="350">
 		<p>{{project.meta}}</p>
 	</li>
 	{% endif %}

@@ -1,8 +1,8 @@
 ---
 layout: project-detail
-title: draw-circle
+title: Draw Circle
 cat: android-development
-meta: intro of draw-circle
+meta: This contains three mode: draw, move and delete.  
 image: 
 ---
 
