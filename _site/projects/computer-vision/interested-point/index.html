@@ -26,7 +26,17 @@
 
 <h2 id="interested-point">Interested Point</h2>
 
-<p>interested points</p>
+<h3 id="algorithm-steps">Algorithm Steps:</h3>
+<ol>
+  <li>get interested points using Harris algorithm
+get_interest_points(image, feature_width)<br /></li>
+  <li>find features for each interested points using SIFT method
+get_features(image, x, y, feature_width)<br /></li>
+  <li>compute Euclidean distance for each feature to match vailed interested points
+match_features(features1, features2)<br /></li>
+</ol>
+
+<p><a href="https://github.com/kaili37575/interested-point">Source code and details</a></p>
 
 <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
 
