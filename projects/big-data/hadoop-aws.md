@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: Hadoop AWS
+title: Hadoop & Spark
 cat: big-data
-meta: intro of Hadoop-AWS
-image: 
+meta: Small programs on AWS using Hadoop and Spark
+image: spark-hadoop.png
 ---
 
-details of hadoop and AWS
+[Source code and details](https://github.com/kaili37575/hadoop-spark-testing)
