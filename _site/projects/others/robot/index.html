@@ -24,7 +24,40 @@
 </header><!-- /header -->
 <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
 
-<p>Escape the maze!</p>
+<h1 id="escape-the-maze">Escape the Maze</h1>
+
+<h3 id="requriments">Requriments<br /></h3>
+<ul>
+  <li>Initial start location is (4,4), destination is (28,28);</li>
+  <li>The maze is generated randomly with a N percent obstacles;</li>
+  <li>Each rotation is 45 degree and robot can only see three directions at one orientation;</li>
+  <li>The robot only know the location of destination;</li>
+  <li>Each decision can only based on the database(not maze information) of the robot.</li>
+  <li>Set a threshold, if can’t arrive to the destination after 5000 times try, then the robot is trapped in maze.</li>
+</ul>
+
+<h3 id="key-data-structure">Key Data Structure</h3>
+<ul>
+  <li>Database: To store information about the maze. each move will update the database;</li>
+  <li>Path: To store the path which the robot already go through;</li>
+  <li>Orientation: from 1-8 represent 8 direction; 1:   2:    3:       etc.</li>
+  <li>Flag: It is a switch for robot to be Normal mode or Pass-obstacle mode;</li>
+  <li>TurnOrder: determine rotateRight or rotateLeft when meet obstacle</li>
+</ul>
+
+<h3 id="results">Results</h3>
+<ul>
+  <li>Left figure: robot’s movement in known maze data</li>
+  <li>Right figure: robot’s movement in actual environment(robot database)</li>
+  <li>Red point: start point</li>
+  <li>Green point: destination point</li>
+  <li>White point: Free road which hasn’t been go through</li>
+  <li>Black point: obstacles</li>
+  <li>Bright yellow point: the path of robot, priority lower than white point</li>
+  <li>dark yellow point: bad-road, only go back method can go through this point</li>
+</ul>
+
+<p><a href="https://github.com/kaili37575/escape-maze">Source code and details</a></p>
 
 <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
 
