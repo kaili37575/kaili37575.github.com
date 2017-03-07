@@ -6,7 +6,7 @@
 - title: Database
   folder: database
   cat: project
-  content: Using both JAVA and SQL to draw a picture in spatial database
+  content: Using both JAVA and SQL Geometry Package to draw picture in spatial database
 
 - title: Android Development
   folder: android-development
@@ -16,11 +16,11 @@
 - title: Big Data
   folder: big-data
   cat: project
-  content: Using Hadoop and AWS to analyse big data
+  content: Using Hadoop and Spark to analyse big data
 
 - title: Others
   folder: others
   cat: project
-  content: other projects
+  content: other JAVA projects
 
 
